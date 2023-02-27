@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    body{
+        background-image: url(Turkey-Istanbul_8274724020.jpg);
+       background-repeat: no-repeat;
+      
+       background-size: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: whitesmoke;
+        width: 300px;
+        height: 500px;
+        gap: 10px;
+        padding-left: 8px;
+      
+      
+    }
+h1{
+    color: rgb(0, 119, 255);
+    opacity: 10px;
+    font-size: bold;
+    text-align: center;
+
+}
+input[type=text],input[type="password"],button{
+   border-radius: 20px;
+   width:280px ;
+   height: 30px;
+   border-color:rgba(240, 248, 255, 0.473) ;
+
+}
+
+button{
+    background-color: rgb(0, 102, 255);
+    border: none;
+    color: white;
+   
+}
+.line1{
+    border: 1px solid black;
+    width: 140px;
+}
+.line2{
+    border: 1px solid black;
+    width: 140px;
+    float: right;
+}
+.khara{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: center;
+}
+.btn{
+    background-color: rgb(0, 162, 255);
+}
+p{
+  text-align: center;
+}
+
+@media screen and (max-width:700px) {
+    body{
+    
+      background-size: cover;
+      background-attachment: fixed;
+      
+      
+    }
+  .contanier{
+    width: 200px;
+  }
+
+    
+}
+
+</style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Sign Up Now</h1>
+            <input type="text" name="email"  id="email" placeholder="Your Email">
+            <input type="password" name="pass"  id="pass" placeholder="Your Password">
+            <div>
+            <input type="checkbox">
+            <label>I agree to the terms of services</label>
+        </div>
+            <button>Sign Up</button><br><br><br>
+            <div class="khara">
+            <div class="line1"></div>
+            <div  class="or" >OR</div>
+            <div class="line2" ></div>
+        </div>
+        <button class="btn">Login with twitter</button>
+    <p>Do you have an account?<a href="">Sign in</a></p>
+           
+
+
+        </div>
+    </body>
+</html>
